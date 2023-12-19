@@ -1,0 +1,53 @@
+.header {
+	background-color: hsl(0, 0%, 70%);
+	height: 10vh;
+}
+.content {
+	display: flex;
+	background-color: lightyellow;
+}
+
+.main {
+	display: flex;
+	height: 70vh;
+	width: 70%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.main > article {
+	background-color: yellow;
+	height: 20%;
+	margin: 2%;
+}
+p {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+.article1,
+.article2 {
+	flex-basis: 45%;
+}
+
+.article3 {
+	flex-basis: 100%;
+}
+
+.aside {
+	background-color: aquamarine;
+	width: 30%;
+}
+
+.footer {
+	display: flex;
+	background-color: hsl(0, 0%, 70%);
+	justify-content: space-around;
+	height: 20vh;
+	align-items: center;
+}
+
+.footer > section {
+	background-color: lightgrey;
+	height: 50%;
+}
